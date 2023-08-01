@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+header {
+  background-image: url(./images/IMG_0582.jpg);
+}
+
+footer {
+  background-image: url(./images/IMG_0581.jpg);
+}
