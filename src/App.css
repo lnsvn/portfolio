@@ -7,6 +7,10 @@ header {
   text-shadow: var(--outline);
 }
 
+main {
+  background-color: #ffe7b3;
+}
+
 footer {
   background-image: url(./images/footer.jpg);
   text-shadow: var(--outline);
