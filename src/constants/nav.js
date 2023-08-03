@@ -1,16 +1,23 @@
 const navLinks = [
     {
       title: "About Me",
-      color: "purple",
+      link: "#AboutMe",
+      page: "AboutMe"
     },
     {
       title: "Work",
+      link: "#Work",
+      page: 'Work'
     },
     {
       title: "Contact",
+      link: "#Contact",
+      page: "Contact"
     },
     {
       title: "Resume",
+      link: "#Resume",
+      page: "Resume"
     },
 ];
 

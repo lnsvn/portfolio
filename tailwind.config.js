@@ -4,7 +4,6 @@ module.exports = {
     // configure the paths to JavaScript components and pages
     // * any files that contain Tailwind class names *
     './src/**/**/*.{html,js}',
-    './src/**/**/*.{html,js}',
   ],
   theme: {
     extend: {

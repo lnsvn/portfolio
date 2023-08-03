@@ -1,15 +1,15 @@
 const footerLinks = [
     {
         title: "GitHub",
-        link: ""
+        link: "https://github.com/lnsvn"
     },
     {
         title: "LinkedIn",
-        link: ""
+        link: "https://www.linkedin.com/in/lauren-sullivan-5644b872/"
     },
     {
         title: "Twitter",
-        link: ""
+        link: "https://twitter.com/lnsvn_dev"
     }
 ];
 

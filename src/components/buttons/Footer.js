@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function FooterButton(props) {
-  return <button href={props.link}>{props.title}</button>;
+  return <a href={props.link}>{props.title}</a>;
 }
