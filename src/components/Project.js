@@ -3,7 +3,7 @@ import React from "react";
 export default function Project(props) {
   return (
     <div className="border border-gray-400  bg-white rounded p-5 flex flex-row m-6">
-      <img className="w-36 h-36 mr-4" src={props.image} alt={props.title}></img>
+      <img className="w-52 h-52 mr-4 rounded" src={props.image} alt={props.title}></img>
       <div className="flex flex-col">
         <div className="text-gray-900 font-bold text-xl mb-2">
           {props.title}

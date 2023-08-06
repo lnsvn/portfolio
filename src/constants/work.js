@@ -1,16 +1,19 @@
-import cubcare from "../images/cubcare.png"
+import cubcare from "../images/cubcare.png";
+import castlejournal from "../images/castlejournal.png";
+import pokewiki from "../images/pokewiki.png";
 
 const projects = [
   {
     title: "CubCare",
     image: cubcare,
-    description: "",
-    appLink: "",
-    repoLink: "",
+    description:
+      "CubCare is a childcare website where parents can match with babysitters (based on a questionaire) and can select babysitters to care for their children. This app is designed for both parents and babysitters to benefit, where parents can gain the time off that they have needed away from their kids, while babysitters can earn an income by babysitting their children. This app is targeted to parents and babysitters living inside the borough of Manhattan in NYC.",
+    appLink: "https://cubcare-9dc4e13d9451.herokuapp.com/",
+    repoLink: "https://github.com/lnsvn/CubCare",
   },
   {
     title: "CastleJournal",
-    image: "",
+    image: castlejournal,
     description:
       "Castle Journal is an English companion app for the 100 Famous Japanese Castles guide book. You can use Castle Journal for planning your trips, sharing your experiences, and updating an online version of your stamp book with the stamps you've collected.",
     appLink: "https://rocky-fortress-11303.herokuapp.com/login",
@@ -18,7 +21,7 @@ const projects = [
   },
   {
     title: "PokéWiki",
-    image: "",
+    image: pokewiki,
     description:
       "PokéWiki is a Pokémon search engine designed to have a similar look and feel to the Pokémon TV show and games. Search for any Pokémon in the Pokédex by typing its name or number into the search. Then, you will be presented with the presented with the Pokémon's name, sprite, number, types, a short description, and a link to a Wikipedia page if you would like to learn more.",
     appLink: "https://tcunningham203.github.io/Etsy-Pokedex/",
