@@ -16,7 +16,7 @@ export default function Header(props) {
       <header className="flex justify-between text-white font-rem text-3xl font-bold font-outline-2">
         <span className="pl-5 my-6 ">Lauren Sullivan</span>
         <span className="my-6">Full-Stack Developer</span>
-        <nav className="text-2xl my-6">
+        <nav className="text-2xl my-7">
           <ul className="flex">
             {navData}
           </ul>
