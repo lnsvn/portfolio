@@ -5,7 +5,7 @@ import projects from "../constants/work";
 function Work () {
     const projectData = projects.map((project) => {
         return (
-            <li><Project title={project.title} image={project.image} description={project.description}
+            <li key={project.title}><Project title={project.title} image={project.image} description={project.description}
             appLink={project.appLink} repoLink={project.repoLink}/></li>
         )
     })
