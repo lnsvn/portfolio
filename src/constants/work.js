@@ -1,6 +1,6 @@
-import cubcare from "../images/cubcare.png";
-import castlejournal from "../images/castlejournal.png";
-import pokewiki from "../images/pokewiki.png";
+import cubcare from "../images/projects/cubcare.png";
+import castlejournal from "../images/projects/castlejournal.png";
+import pokewiki from "../images/projects/pokewiki.png";
 
 const projects = [
   {

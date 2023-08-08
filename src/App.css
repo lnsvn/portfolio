@@ -3,7 +3,7 @@
 }
 
 header {
-  background-image: url(./images/header.jpg);
+  background-image: url(./images/backgrounds/header.jpg);
   text-shadow: var(--outline);
 }
 
@@ -12,6 +12,6 @@ main {
 }
 
 footer {
-  background-image: url(./images/footer.jpg);
+  background-image: url(./images/backgrounds/footer.jpg);
   text-shadow: var(--outline);
 }
