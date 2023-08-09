@@ -30,14 +30,16 @@ function Resume() {
   return (
     <main className="flex flex-col items-center font-rem font-bold py-8">
       <h1 className="text-3xl mb-5">Resume</h1>
-      <FadeIn><a
-        href={resume}
-        target="_blank"
-        rel="noreferrer"
-        className="flex justify-center rounded-md bg-emerald-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-md hover:bg-emerald-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 mb-5"
-      >
-        View my resume
-      </a></FadeIn>
+      <FadeIn>
+        <a
+          href={resume}
+          target="_blank"
+          rel="noreferrer"
+          className="flex justify-center rounded-md bg-emerald-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-md hover:bg-emerald-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 mb-5"
+        >
+          View my resume
+        </a>
+      </FadeIn>
       <div className="flex flex-row">
         <SlideRight>
           <div className="flex flex-col items-center">
