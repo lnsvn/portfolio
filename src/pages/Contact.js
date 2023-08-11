@@ -6,7 +6,7 @@ import ZoomIn from "../components/animations/ZoomIn";
 function Contact() {
   const emailLink = env.EMAIL_LINK;
   return (
-    <main className="flex flex-col items-center justify-center font-rem font-bold py-8">
+    <main className="flex flex-col items-center  font-rem font-bold py-8">
       <h1 className="text-3xl mb-5">Contact</h1>
       <FadeIn>
         <p>Send me an e-mail through the form below.</p>

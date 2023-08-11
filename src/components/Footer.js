@@ -1,13 +1,16 @@
 import React from "react";
 import FooterButton from "./buttons/Footer";
 import footerLinks from "../constants/footer";
+import SlideLeft from "./animations/SlideInLeft";
 
 function Footer() {
   const footerData = footerLinks.map((footer) => {
     return (
-      <li key={footer.title}>
-        <FooterButton title={footer.title} link={footer.link} />
-      </li>
+      <SlideLeft>
+        <li key={footer.title}>
+          <FooterButton title={footer.title} link={footer.link} />
+        </li>
+      </SlideLeft>
     );
   });
 

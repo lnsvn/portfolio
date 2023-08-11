@@ -18,10 +18,14 @@ export default function Project(props) {
           <p className="text-gray-700 text-base mb-6">{props.description}</p>
           <div className="flex items-center justify-evenly">
             <Pulse>
-              <a href={props.repoLink}>Repo</a>
+              <a href={props.repoLink} target="_blank" rel="noreferrer">
+                Repo
+              </a>
             </Pulse>
             <Pulse>
-              <a href={props.appLink}>App</a>
+              <a href={props.appLink} target="_blank" rel="noreferrer">
+                App
+              </a>
             </Pulse>
           </div>
         </div>

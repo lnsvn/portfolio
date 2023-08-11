@@ -1,6 +1,7 @@
 import React from "react";
 import NavButton from "./buttons/Nav";
 import navLinks from "../constants/nav";
+import SlideLeft from "./animations/SlideInLeft";
 
 export default function Header(props) {
   const navData = navLinks.map((nav) => {
@@ -19,11 +20,17 @@ export default function Header(props) {
 
   return (
     <header className="flex justify-between text-white font-rem text-4xl font-bold">
-      <span className="pl-5 my-6">Lauren Sullivan</span>
-      <span className="my-6">Full-Stack Developer</span>
-      <nav className="text-2xl my-7">
-        <ul className="flex">{navData}</ul>
-      </nav>
+      <SlideLeft>
+        <div className="pl-5 my-6">Lauren Sullivan</div>
+      </SlideLeft>
+      <SlideLeft>
+        <div className="my-6">Full-Stack Developer</div>
+      </SlideLeft>
+      <SlideLeft>
+        <nav className="text-2xl my-7">
+          <ul className="flex">{navData}</ul>
+        </nav>
+      </SlideLeft>
     </header>
   );
 }

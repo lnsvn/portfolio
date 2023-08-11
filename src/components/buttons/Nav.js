@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function NavButton({ title, link, page, currentPage, handlePageChange}) {
-  return <a href={link} onClick={() => handlePageChange(page)} className={currentPage === page ? 'text-slate-500' : 'text-white hover:text-slate-300 hover:underline '}>{title}</a>;
+  return <a href={link} onClick={() => handlePageChange(page)} className={currentPage === page ? 'text-white bg-orange-100 rounded p-1' : 'text-white hover:text-orange-100 hover:underline '}>{title}</a>;
 }
